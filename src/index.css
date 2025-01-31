@@ -1,0 +1,71 @@
+/* Импорт шрифтов */
+@font-face {
+  font-family: 'Bender';
+  src: url('./MainContent/fonts/Jovanny\ Lemonad\ -\ Bender.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bender-Black';
+  src: url('./MainContent/fonts/Jovanny\ Lemonad\ -\ Bender-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bender-BlackItalic';
+  src: url('./MainContent/fonts/Jovanny\ Lemonad\ -\ Bender-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bender-Bold';
+  src: url('./MainContent/fonts/Jovanny\ Lemonad\ -\ Bender-Bold.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bender-BoldItalic';
+  src: url('./MainContent/fonts/Jovanny\ Lemonad\ -\ Bender-BoldItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bender-Italic';
+  src: url('./MainContent/fonts/Jovanny\ Lemonad\ -\ Bender-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bender-Light';
+  src: url('./MainContent/fonts/Jovanny\ Lemonad\ -\ Bender-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bender-LightItalic';
+  src: url('./MainContent/fonts/Jovanny\ Lemonad\ -\ Bender-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Основные стили */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Bender', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

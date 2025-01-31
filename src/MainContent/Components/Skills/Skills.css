@@ -1,0 +1,45 @@
+/* Skills.css */
+.skills-card {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills-card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("./assets/sticker.png");
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 330px;
+  }
+  
+  .skills-card h1 {
+    font-size: 2.25rem;
+    margin: 0 0 1rem 0;
+    max-width: 350px;
+    height: 50px;
+    font-family: "Bender-Bold", sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  
+  .skills-card p {
+    font-size: 1.375rem;
+    margin: 0;
+    word-wrap: break-word;
+    max-width: 360px;
+    height: 150px;
+    font-family: "Bender", sans-serif;
+    line-height: 1.55rem;
+  }
+
+  .skill-card-subdiv {
+    position: relative;
+    left: 4rem;
+  }

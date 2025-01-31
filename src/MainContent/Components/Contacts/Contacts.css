@@ -1,0 +1,25 @@
+.socialIcons-container,
+.socialIcons-info {
+  display: flex;
+  color: white;
+}
+
+.socialIcons-container {
+  width: 100%;
+  justify-content: center;
+}
+
+.socialIcons-items {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* width: 50%; */
+  column-gap: 7rem;
+  justify-content: center;
+}
+
+.socialIcons-items p {
+    font-family: "Bender", sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
