@@ -13,16 +13,16 @@ import "./Contacts.css"
 
 export const Contacts = () => {
     return (
-        <div>
-            <div>
-                <img src={ContactsLetter_c1} alt="ContactsLetter_c1" width={165} height={175} />
-                <img src={ContactsLetter_o} alt="ContactsLetter_o" width={165} height={175} />
-                <img src={ContactsLetter_n} alt="ContactsLetter_n" width={165} height={175} />
-                <img src={ContactsLetter_t1} alt="ContactsLetter_t1" width={165} height={175} />
-                <img src={ContactsLetter_a} alt="ContactsLetter_a" width={165} height={175} />
-                <img src={ContactsLetter_c2} alt="ContactsLetter_c2" width={165} height={175} />
-                <img src={ContactsLetter_t2} alt="ContactsLetter_t2" width={165} height={175} />
-                <img src={ContactsLetter_s} alt="ContactsLetter_s" width={165} height={175} />
+        <div className='contacts-content-container'>
+            <div className='contacts-letters-container'>
+                <img src={ContactsLetter_c1} alt="ContactsLetter_c1" width={108} height={140} />
+                <img src={ContactsLetter_o} alt="ContactsLetter_o" width={178} height={130} />
+                <img src={ContactsLetter_n} alt="ContactsLetter_n" width={114} height={130} />
+                <img src={ContactsLetter_t1} alt="ContactsLetter_t1" width={96} height={132} />
+                <img src={ContactsLetter_a} alt="ContactsLetter_a" width={97} height={139} />
+                <img src={ContactsLetter_c2} alt="ContactsLetter_c2" width={119} height={140} />
+                <img src={ContactsLetter_t2} alt="ContactsLetter_t2" width={167} height={140} />
+                <img src={ContactsLetter_s} alt="ContactsLetter_s" width={100} height={140} />
             </div>
             <SocialIcons />
         </div>

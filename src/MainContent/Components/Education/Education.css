@@ -1,3 +1,10 @@
+.education-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.25rem;
+    gap: 6.25rem;
+}
+
 .education-numeric-list-div {
     display: flex;
     color: white;
@@ -22,4 +29,10 @@
     display: flex;
     flex-direction: column;
     gap: 4.5rem;
+}
+
+.education-letters-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
 }

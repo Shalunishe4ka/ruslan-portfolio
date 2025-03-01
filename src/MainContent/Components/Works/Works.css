@@ -1,0 +1,12 @@
+.works-content-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.625rem;
+    align-items: center;
+    gap: 6.25rem;
+}
+
+.works-letters-container{
+    display: flex;
+    gap: 1.3rem;
+}

@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <header className="header-comp">
       <HeaderText />
-      <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+      <div className="subText">
         <HeaderTextUXUI />
         <HeaderTextDesigner />
       </div>

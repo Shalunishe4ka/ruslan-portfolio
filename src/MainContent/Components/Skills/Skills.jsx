@@ -10,14 +10,14 @@ import { SkillsCards } from './SkillsCards'
 
 export const Skills = () => {
     return (
-        <div>
-            <div>
-                <img src={SkillsLetter_s1} alt='SkillsLetter_s1' width={165} height={175} />
-                <img src={SkillsLetter_k} alt='SkillsLetter_k' width={165} height={175} />
-                <img src={SkillsLetter_i} alt='SkillsLetter_i' width={165} height={175} />
-                <img src={SkillsLetter_l1} alt='SkillsLetter_l1' width={165} height={175} />
-                <img src={SkillsLetter_l2} alt='SkillsLetter_l2' width={165} height={175} />
-                <img src={SkillsLetter_s2} alt='SkillsLetter_s2' width={165} height={175} />
+        <div className='skills-content-container'>
+            <div className='skills-letters-container'>
+                <img src={SkillsLetter_s1} alt='SkillsLetter_s1' width={153} height={135} />
+                <img src={SkillsLetter_k} alt='SkillsLetter_k' width={123} height={138} />
+                <img src={SkillsLetter_i} alt='SkillsLetter_i' width={99} height={135} />
+                <img src={SkillsLetter_l1} alt='SkillsLetter_l1' width={91} height={136} />
+                <img src={SkillsLetter_l2} alt='SkillsLetter_l2' width={89} height={138} />
+                <img src={SkillsLetter_s2} alt='SkillsLetter_s2' width={121} height={138} />
             </div>
             <SkillsCards />
         </div>

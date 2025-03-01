@@ -1,0 +1,21 @@
+.whoIAm-container {
+    margin-top: 2rem;
+    margin-left: 15rem;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    margin-bottom: 3.25rem;
+    gap: 5.65rem;
+}
+
+.phrases-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+
+#phrase-who, #phrase-am {
+    display: flex;
+    gap: 1.15rem;
+}
+

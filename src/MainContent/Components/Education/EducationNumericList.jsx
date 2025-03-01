@@ -8,7 +8,7 @@ export const EducationNumericList = () => {
     return (
         <div className='education-numeric-list-main'>
             <div className='education-numeric-list-div'>
-                <img src={EducationNumericList_1} alt='EducationNumericList_1' width={165} height={175} />
+                <img src={EducationNumericList_1} alt='EducationNumericList_1' width={136} height={131} />
                 <div>
                     <h1>
                         2020-2024 Южный Федеральный Университет
@@ -23,7 +23,7 @@ export const EducationNumericList = () => {
 
             </div>
             <div className='education-numeric-list-div'>
-                <img src={EducationNumericList_2} alt='EducationNumericList_2' width={165} height={175} />
+                <img src={EducationNumericList_2} alt='EducationNumericList_2' width={136} height={131} />
 
                 <div>
                     <h1>
@@ -40,7 +40,7 @@ export const EducationNumericList = () => {
 
             </div>
             <div className='education-numeric-list-div'>
-                <img src={EducationNumericList_3} alt='EducationNumericList_3' width={165} height={175} />
+                <img src={EducationNumericList_3} alt='EducationNumericList_3' width={136} height={131} />
 
 
 
