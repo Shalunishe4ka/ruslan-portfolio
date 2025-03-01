@@ -1,0 +1,14 @@
+.header-comp {
+    display: flex;
+    /* justify-content: center; */
+    height: 100vh;
+    align-items: center;
+    background-image: url("./assets/headerTextPortfolio/background.jpg");
+    background-repeat: round;
+    flex-direction: column;
+    gap: 11.15rem;
+}
+
+.header-text-portfolio-container {
+    margin-top: 10.25rem
+}

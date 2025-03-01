@@ -12,15 +12,15 @@ import headerDesignerLetterImage_s from "./assets/headerTextDesigner/S_27.png";
 
 export const HeaderTextDesigner = () => {
   return (
-    <div>
-        <img src={headerDesignerLetterImage_d} alt="letter_d" width={165} height={175} />
-        <img src={headerDesignerLetterImage_e1} alt="letter_e1" width={165} height={175} />
-        <img src={headerDesignerLetterImage_s} alt="letter_s" width={165} height={175} />
-        <img src={headerDesignerLetterImage_i} alt="letter_i" width={165} height={175} />
-        <img src={headerDesignerLetterImage_g} alt="letter_g" width={165} height={175} />
-        <img src={headerDesignerLetterImage_n} alt="letter_n" width={165} height={175} />
-        <img src={headerDesignerLetterImage_e2} alt="letter_e2" width={165} height={175} />
-        <img src={headerDesignerLetterImage_r} alt="letter_r" width={165} height={175} />
+    <div className='header-text-designer-container'>
+        <img src={headerDesignerLetterImage_d} alt="letter_d" width={131} height={104} />
+        <img src={headerDesignerLetterImage_e1} alt="letter_e1" width={124} height={104} />
+        <img src={headerDesignerLetterImage_s} alt="letter_s" width={80} height={116} />
+        <img src={headerDesignerLetterImage_i} alt="letter_i" width={89} height={116} />
+        <img src={headerDesignerLetterImage_g} alt="letter_g" width={54} height={111} />
+        <img src={headerDesignerLetterImage_n} alt="letter_n" width={109} height={119} />
+        <img src={headerDesignerLetterImage_e2} alt="letter_e2" width={102} height={116} />
+        <img src={headerDesignerLetterImage_r} alt="letter_r" width={109} height={118} />
         
     </div>
   )
