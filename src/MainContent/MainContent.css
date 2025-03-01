@@ -1,3 +1,9 @@
+.MainContent {
+    background-image: url("./background.png");
+    display: flex;
+    justify-content: center;
+}
+
 .whoIAm-container {
     margin-top: 2rem;
     margin-left: 15rem;
